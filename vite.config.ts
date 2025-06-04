@@ -4,12 +4,15 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/mursal-ashraf.github.io/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: true,
     rollupOptions: {
+      input: {
+        main: './index.html'
+      },
       output: {
         manualChunks: undefined,
         assetFileNames: 'assets/[name].[hash][extname]',

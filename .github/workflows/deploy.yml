@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:  # Ensure proper permissions
+  contents: write
+
 jobs:
   build:
     name: Build

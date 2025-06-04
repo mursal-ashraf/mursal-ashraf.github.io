@@ -1,4 +1,5 @@
 import React from 'react';
+import { ThemeToggle } from './ThemeToggle';
 
 const Header: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const Header: React.FC = () => {
               GitHub
             </a>
           </li>
+          <li><ThemeToggle /></li>
         </ul>
       </nav>
     </header>

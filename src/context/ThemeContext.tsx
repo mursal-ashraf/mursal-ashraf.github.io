@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useLayoutEffect, useState } from 'react';
 
 type Theme = 'light' | 'dark';
 
@@ -14,7 +14,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
   );
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     document.documentElement.classList.remove('light', 'dark');
     document.documentElement.classList.add(theme);
   }, [theme]);

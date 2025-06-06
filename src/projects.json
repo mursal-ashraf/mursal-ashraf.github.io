@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Car Receipt App",
+        "description": "A simple app made using React, TypeScript and Mobx that allows a user to enter details of a car transaction - and generates a receipt from it. Receipt is based off the example one given on the VicRoads website.\n\nMain motivation behind this was to delve into the world of Mobx and state management in React - happened to be at a time where I was looking for a car as well :)\n\nNote: I did not intend to use this for legal purposes - just a small little side project.",
+        "link": "https://mursal-ashraf.github.io/car-receipt-app/",
+        "repo": "https://github.com/mursal-ashraf/car-receipt-app"
+    }
+] 

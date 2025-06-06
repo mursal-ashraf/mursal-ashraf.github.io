@@ -1,0 +1,3 @@
+[submodule "car-receipt-app"]
+    path = car-receipt-app       
+    url = https://github.com/mursal-ashraf/car-receipt-app
